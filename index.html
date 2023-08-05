@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="myweatherapp.css">
+</head>
+
+<body>
+
+    <!-- <div id="myhourlyforecast" ><button id="hfore" onclick="showfore()">Show</button></div> -->
+    <div id="myweather"><span id="myabtwea">Weather App</span> </div>
+    <div id="myweather2"><span id="myabtwea2">Weather App</span> </div>
+
+
+    <div id="maininpt">
+
+        <div id="myback" onclick="backfunc()"> <i class="fa fa-long-arrow-left myi" style="font-size:36px;color:rgb(255, 136, 0) "></i></div>
+
+
+        <div class="abtwea" id="abt">
+
+            <div class="mainicon">
+                <img src="weather2.gif" alt="" srcset="" id="mainicon2">
+
+            </div>
+            <p id="abtcity">Press Enter to get weather details</p>
+
+            <div class="inpt">
+                
+                <div id="inpt1">
+                    <input type="text" name="" id="myinput" placeholder="Enter city name...." autofocus="on">
+                </div>
+
+                <div id="error"><span id="errorcont"></span></div>
+                <div class="linecon">
+                <div class="line"></div>
+                <p class="or">OR</p>
+                <div class="line"></div>
+
+                </div>
+
+                <div id="btns">
+
+                    <button id="mylocation" onclick="mylocfun()">Current Location</button>
+                </div>
+                <div id="spinner"><img src="https://i.gifer.com/VAyR.gif" alt="loading" srcset="" id="spinimg"></div>
+
+            </div>
+        </div>  
+        <div id="output">
+            <div id="cityname">
+                <span id="name"></span>
+                <img src="" alt="countryflag" id="flag">
+            </div>
+
+            <div class="wicon">
+                <div id="myimg">
+                    <!-- <img src="" alt="icon" srcset="" id="wimg"> -->
+
+                </div>
+
+            </div>
+            <p id="maintemp"></p>
+            <p id="rain"></p>
+           
+            <div id="tempdetails">
+                <div class="temp">Temp<span id="temp2"></span></div>
+                <div class="feelslike">Feels like<span id="feelslike2"></span></div>
+                <div class="humidity">Humidity<span id="humidity2"></span></div>
+            </div>
+            <div class="time">
+                <div id="date"></div>
+
+                <div id="timeday"></div>
+
+            </div>
+            <div id="spinner2">
+                <img src="https://i.gifer.com/VAyR.gif" alt="loading" srcset="" id="spinimg2">
+            </div>
+            <div id="forecast">
+                <div class="nextfivedays">
+        
+                    <div class="innernext">
+                        
+                    </div>
+                    <p class="myndate"></p>
+                </div>
+                <div class="nextfivedays">
+                    <div class="innernext">
+                    </div>
+                    <p class="myndate"></p>
+        
+                </div>
+        
+                <div class="nextfivedays">
+                    <div class="innernext">
+        
+                    </div>
+                    <p class="myndate"></p>
+                </div>
+        
+                <div class="nextfivedays">
+                    <div class="innernext">
+        
+                    </div>
+                    <p class="myndate"></p>
+                </div>
+        
+                <div class="nextfivedays">
+                    <div class="innernext">
+        
+                    </div>
+                    <p class="myndate"></p>
+                </div>
+        
+        
+              </div>
+            
+        </div>
+       
+    </div>
+    <!-- <div class="abtfor"> -->
+        <!-- <span id="abtforc">Next five days weather</span> -->
+
+    <!-- </div> -->
+  
+
+
+</body>
+<script>
+
+
+
+</script>
+<script src="https://kit.fontawesome.com/ea6e41f62f.js" crossorigin="anonymous"></script>
+<script src="myweatherapp.js"></script>
+
+</html>
